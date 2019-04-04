@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="680" height="2681" viewBox="0 0 680 2681">
+  <defs>
+    <clipPath id="clip-about.html_tablet">
+      <rect width="680" height="2681"/>
+    </clipPath>
+  </defs>
+  <g id="about.html_tablet" data-name="about.html tablet" clip-path="url(#clip-about.html_tablet)">
+    <rect width="680" height="2681" fill="#fff"/>
+    <rect id="Rectangle_124" data-name="Rectangle 124" width="533" height="60" transform="translate(73 1534)" fill="#c1c1c1"/>
+    <rect id="Rectangle_93" data-name="Rectangle 93" width="680" height="220.02" transform="translate(0 13)" fill="#9f9f9f"/>
+    <rect id="Rectangle_94" data-name="Rectangle 94" width="643" height="41.471" transform="translate(18 169.549)" fill="#c1c1c1"/>
+    <text id="Image" transform="translate(26 138.221)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="280.88" y="23">Image</tspan></text>
+    <text id="INTRO_TITLE" data-name="INTRO TITLE" transform="translate(26.52 174.284)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="243.776" y="23">INTRO TITLE</tspan></text>
+    <rect id="Rectangle_91" data-name="Rectangle 91" width="679" height="100" fill="#717171"/>
+    <ellipse id="Ellipse_18" data-name="Ellipse 18" cx="46.62" cy="47.178" rx="46.62" ry="47.178" transform="translate(292.111 43.643)" fill="#717171"/>
+    <ellipse id="Ellipse_19" data-name="Ellipse 19" cx="37.966" cy="44.666" rx="37.966" ry="44.666" transform="translate(300.802 36.943)" fill="#9f9f9f"/>
+    <text id="LOGO" transform="translate(313.565 77.234)" fill="#fff" font-size="12" font-family="HelveticaNeue, Helvetica Neue"><tspan x="5.602" y="11">LOGO</tspan></text>
+    <line id="Line_1" data-name="Line 1" x2="33" transform="translate(627 34)" fill="none" stroke="#fff" stroke-width="3"/>
+    <line id="Line_2" data-name="Line 2" x2="33" transform="translate(627 44)" fill="none" stroke="#fff" stroke-width="3"/>
+    <line id="Line_3" data-name="Line 3" x2="33" transform="translate(627 54)" fill="none" stroke="#fff" stroke-width="3"/>
+    <image id="icons8-marker-50" width="50" height="50" transform="translate(40 25)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARbSURBVGhD7ZpbqFVFGICPXbWbJaQV1UsXhShIIwxUVMiEVLqISCDqg6X1lJmggVA+ZIWaUGiBYQ9RmtqFoKSUsAQhCC9UppJlUKhoZmaFmX3fxNB5WLe996y9j+AHH5yZM2dm1mVm/pl1us6SzTX4KL6FO/AXPI1/4c/4Gb6I9+L52OO4Bd/Fv9GOV/EgPoUXYce5ElfiKbRzf+KH+AjegT6h8/BivBlH4yL8BuMF/YTTsWPcivvQzpzA5/AKrMpd+CnGC3oNL8S2MhZ/QzuwCa/DZnkAj6J1fY59sS3chr+jDa/AFIN2EO5B69yA52KtOCb2ow2+bEZCrsIf0bqd2WrlDbShjeggTs0QjE97hBl1MBj/weM4wIyamINeyFbsZUZqPkIbeDqkqnMpXvDfj5XojT+gbTkRJOUG9Gk4U11mRglDcQ3+inZId+EzeDmWMRP9Gwd+UuaiFb8dUvk42yxBLzpewBF0nYnpAzgci+iPLrJGClUuvDIfoJ2YElL5LEPL2fH5GMeS77pPKb6eDmgHdhHGZZadEFKJ+B6t1DAjj5EYO+mqnYUX5LRtuZ1YtF4sRsvNC6lExFfFmCmP+NSeCKl8nLa/RsuONyOHx9Eyr4ZUAgwZrNBpNw9XdwPGk1glxIhTbNGiOhkt49qVBKfDsgsxyrXMdyFVzt1oeZ9iHg+hZV4PqUT8gVaat5obuvh7N09VcABbfl1IZfMYWsYJJBnuGazUO5+H06plbgypYl5Ayy4MqWz8nWUWhFQijK2sdExIZbMcLbMqpPIxODRsdwK53Ywc3kPrmxhSiTAatdInQyqb6zEGfHlTpuvKF2iZssU1btoGhlQipqKVepeKeBDjvn0LuoV1IXSL66tyGP2d4UrR7OZNsZxPLune5Fq0YmOnso3UPRj3FVmux35YhHt+yxZNBk3zFVq5K3gZfXAauga4fTX4Mwbz6VThfbSth0MqMc+ilb8SUvXh0/IczFfUiSE5npp4Ib7njewvGsWnYDvJQ/jubEMbmRRS9fAl2kZZpN0Ss9BGDLHrwInC+g+h46w2LsF4nlu0mDXLJ2jdRSt+Mp5HG1sbUunwxlivcd3VZtSNM4k7QLeiTgCpWI1eSOrzskKWoo2+E1Kt4w1xunXabeX4tWGMmeIJySgzWiSODRfNtmMAaePbsZV4KO5N/F6S9MSkKn4C2I12otlQwrjtW7QOp/aOcR/Gu9nM54B4wFB2otIWPkY74yeGRjBUP4b+rWF+x7kJnY7d8TUy8ONhXdmOsq3MRju1F4vOviKG+Jb3sKJsb9JWfL/dd9i5l8wowHXC82DL3m9GT6P7KzbOjAzOQb85ehFvmtFT8Z8F7KSzWFa8FE/1/f7Ro16pLNyT29nN2H0DNgzjzq+2z2op8Vt7PMqJp4QGmvGQL+mBW93cid59Oz4DfTr+7EFfxxe+RvFMy85H/cbiGfEZSTyh9ATSr8JnLL5GjomiM+Oz/E9X17/6sy9A5nhpzgAAAABJRU5ErkJggg=="/>
+    <rect id="Rectangle_109" data-name="Rectangle 109" width="680" height="150" transform="translate(0 2532)" fill="#9f9f9f"/>
+    <text id="BACK_TO_TOP" data-name="BACK TO TOP" transform="translate(36 2537.383)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="224.872" y="23">BACK TO TOP</tspan></text>
+    <rect id="Rectangle_112" data-name="Rectangle 112" width="33.482" height="33.482" transform="translate(495.808 2586)" fill="#c1c1c1"/>
+    <rect id="Rectangle_113" data-name="Rectangle 113" width="33.482" height="33.482" transform="translate(322.478 2586)" fill="#c1c1c1"/>
+    <rect id="Rectangle_114" data-name="Rectangle 114" width="33.482" height="33.482" transform="translate(147.097 2584)" fill="#c1c1c1"/>
+    <text id="ICON" transform="translate(488.271 2596.882)" fill="#fff" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="16.66" y="13">ICON</tspan></text>
+    <text id="ICON-2" data-name="ICON" transform="translate(306.099 2596.882)" fill="#fff" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="16.66" y="13">ICON</tspan></text>
+    <text id="ICON-3" data-name="ICON" transform="translate(121.772 2594.882)" fill="#fff" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="16.66" y="13">ICON</tspan></text>
+    <rect id="Rectangle_115" data-name="Rectangle 115" width="539" height="40" transform="translate(70.5 2635)" fill="#c1c1c1"/>
+    <text id="COPYRIGHT" transform="translate(26 2640)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="244.676" y="23">COPYRIGHT</tspan></text>
+    <text id="PARTNERS" transform="translate(26 1552)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="252.452" y="23">PARTNERS</tspan></text>
+    <rect id="Rectangle_40" data-name="Rectangle 40" width="157" height="173" transform="translate(98 1625)" fill="#c1c1c1"/>
+    <rect id="Rectangle_127" data-name="Rectangle 127" width="157" height="173" transform="translate(98 1828)" fill="#c1c1c1"/>
+    <rect id="Rectangle_125" data-name="Rectangle 125" width="157" height="173" transform="translate(421 1625)" fill="#c1c1c1"/>
+    <rect id="Rectangle_129" data-name="Rectangle 129" width="157" height="173" transform="translate(421 1828)" fill="#c1c1c1"/>
+    <rect id="Rectangle_131" data-name="Rectangle 131" width="157" height="173" transform="translate(260.327 2019)" fill="#c1c1c1"/>
+    <rect id="Rectangle_41" data-name="Rectangle 41" width="157" height="86.169" transform="translate(98 1625)" fill="#9f9f9f"/>
+    <rect id="Rectangle_128" data-name="Rectangle 128" width="157" height="86.169" transform="translate(98 1828)" fill="#9f9f9f"/>
+    <rect id="Rectangle_126" data-name="Rectangle 126" width="157" height="86.169" transform="translate(421 1625)" fill="#9f9f9f"/>
+    <rect id="Rectangle_130" data-name="Rectangle 130" width="157" height="86.169" transform="translate(421 1828)" fill="#9f9f9f"/>
+    <rect id="Rectangle_132" data-name="Rectangle 132" width="157" height="86.169" transform="translate(260.327 2019)" fill="#9f9f9f"/>
+    <text id="LOGO-2" data-name="LOGO" transform="translate(113.818 1650.668)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="29.98" y="23">LOGO</tspan></text>
+    <text id="LOGO-3" data-name="LOGO" transform="translate(113.818 1853.668)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="29.98" y="23">LOGO</tspan></text>
+    <text id="LOGO-4" data-name="LOGO" transform="translate(436.818 1650.668)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="29.98" y="23">LOGO</tspan></text>
+    <text id="LOGO-5" data-name="LOGO" transform="translate(436.818 1853.668)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="29.98" y="23">LOGO</tspan></text>
+    <text id="LOGO-6" data-name="LOGO" transform="translate(277.792 2044.668)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="29.98" y="23">LOGO</tspan></text>
+    <text id="LEARN_MORE" data-name="LEARN MORE" transform="translate(436 1736.668)" fill="#fff" font-size="18" font-family="HelveticaNeue, Helvetica Neue"><tspan x="6.657" y="17">LEARN MORE</tspan></text>
+    <text id="LEARN_MORE-2" data-name="LEARN MORE" transform="translate(436 1944.668)" fill="#fff" font-size="18" font-family="HelveticaNeue, Helvetica Neue"><tspan x="6.657" y="17">LEARN MORE</tspan></text>
+    <text id="LEARN_MORE-3" data-name="LEARN MORE" transform="translate(275.5 2141.668)" fill="#fff" font-size="18" font-family="HelveticaNeue, Helvetica Neue"><tspan x="6.657" y="17">LEARN MORE</tspan></text>
+    <text id="LEARN_MORE-4" data-name="LEARN MORE" transform="translate(98 1736.668)" fill="#fff" font-size="18" font-family="HelveticaNeue, Helvetica Neue"><tspan x="6.657" y="17">LEARN MORE</tspan></text>
+    <text id="LEARN_MORE-5" data-name="LEARN MORE" transform="translate(112 1944.668)" fill="#fff" font-size="18" font-family="HelveticaNeue, Helvetica Neue"><tspan x="6.657" y="17">LEARN MORE</tspan></text>
+    <g id="Group_1" data-name="Group 1" transform="translate(18 2215)">
+      <rect id="Rectangle_50" data-name="Rectangle 50" width="643" height="60" transform="translate(0)" fill="#c1c1c1"/>
+      <rect id="Rectangle_56" data-name="Rectangle 56" width="140" height="40.687" transform="translate(251.5 83.31)" fill="#c1c1c1"/>
+      <text id="TRAA_Positions" data-name="TRAA Positions" transform="translate(63.5 11)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="174.672" y="23">TRAA Positions</tspan></text>
+      <text id="Executives_" data-name="Executives
+" transform="translate(58.571 90.77)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="204.933" y="23">Executives</tspan></text>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(231.654 2396.014)">
+      <rect id="Rectangle_56-2" data-name="Rectangle 56" width="136.831" height="40.687" transform="translate(38.929)" fill="#c1c1c1"/>
+      <text id="Volunteers" transform="translate(-10 7.459)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="61.112" y="23">Volunteers</tspan></text>
+    </g>
+    <rect id="Rectangle_133" data-name="Rectangle 133" width="29" height="25" transform="translate(324.573 2348)" fill="#9f9f9f"/>
+    <rect id="Rectangle_134" data-name="Rectangle 134" width="29" height="25" transform="translate(324.573 2449)" fill="#9f9f9f"/>
+    <path id="Path_1" data-name="Path 1" d="M629.2,5874.611l8.729,12.188,8.172-12.188Z" transform="translate(-298.567 -3520)" fill="#fff"/>
+    <path id="Path_2" data-name="Path 2" d="M629.2,5874.611l8.729,12.188,8.172-12.188Z" transform="translate(-298.567 -3419)" fill="#fff"/>
+    <rect id="Rectangle_171" data-name="Rectangle 171" width="533" height="56.727" transform="translate(73.328 594.273)" fill="#c1c1c1"/>
+    <text id="Title" transform="translate(27.645 611.273)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="291.56" y="23">Title</tspan></text>
+    <rect id="Rectangle_172" data-name="Rectangle 172" width="533" height="150" transform="translate(73.828 678)" fill="#9f9f9f"/>
+    <rect id="Rectangle_175" data-name="Rectangle 175" width="533" height="150" transform="translate(73.828 1095)" fill="#9f9f9f"/>
+    <g id="Rectangle_174" data-name="Rectangle 174" transform="translate(73.328 851.535)" fill="#c1c1c1" stroke="#707070" stroke-width="1">
+      <rect width="450" height="211.171" stroke="none"/>
+      <rect x="0.5" y="0.5" width="449" height="210.171" fill="none"/>
+    </g>
+    <g id="Rectangle_177" data-name="Rectangle 177" transform="translate(73.328 1268.535)" fill="#c1c1c1" stroke="#707070" stroke-width="1">
+      <rect width="450" height="211.171" stroke="none"/>
+      <rect x="0.5" y="0.5" width="449" height="210.171" fill="none"/>
+    </g>
+    <text id="COPY_TEXT" data-name="COPY TEXT" transform="translate(51.328 934.716)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="219.388" y="23">COPY TEXT</tspan></text>
+    <text id="COPY_TEXT-2" data-name="COPY TEXT" transform="translate(51.328 1351.716)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="219.388" y="23">COPY TEXT</tspan></text>
+    <text id="Image-2" data-name="Image" transform="translate(51.828 733.383)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="251.38" y="23">Image</tspan></text>
+    <text id="Image-3" data-name="Image" transform="translate(51.828 1150.383)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="251.38" y="23">Image</tspan></text>
+    <rect id="Rectangle_178" data-name="Rectangle 178" width="504" height="30" transform="translate(73.172 269.352)" fill="#c1c1c1"/>
+    <rect id="Rectangle_179" data-name="Rectangle 179" width="533" height="211.171" transform="translate(73.172 337.535)" fill="#c1c1c1"/>
+    <text id="COPY_TEXT-3" data-name="COPY TEXT" transform="translate(108.172 420.716)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="163.888" y="23">COPY TEXT</tspan></text>
+    <text id="Title-2" data-name="Title" transform="translate(259.087 269.389)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="58.644" y="23">Title</tspan></text>
+  </g>
+</svg>

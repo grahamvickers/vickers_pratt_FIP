@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="680" height="1556" viewBox="0 0 680 1556">
+  <defs>
+    <clipPath id="clip-links.html_tablet">
+      <rect width="680" height="1556"/>
+    </clipPath>
+  </defs>
+  <g id="links.html_tablet" data-name="links.html tablet" clip-path="url(#clip-links.html_tablet)">
+    <rect width="680" height="1556" fill="#fff"/>
+    <path id="Path_3" data-name="Path 3" d="M0,0H267V40H0Z" transform="translate(16.5 1156.5)" fill="#c1c1c1"/>
+    <rect id="Rectangle_93" data-name="Rectangle 93" width="680" height="220.02" transform="translate(0 13)" fill="#9f9f9f"/>
+    <rect id="Rectangle_94" data-name="Rectangle 94" width="643" height="41.471" transform="translate(18 169.549)" fill="#c1c1c1"/>
+    <text id="Image" transform="translate(26 138.221)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="280.88" y="23">Image</tspan></text>
+    <text id="INTRO_TITLE" data-name="INTRO TITLE" transform="translate(26.519 174.284)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="243.776" y="23">INTRO TITLE</tspan></text>
+    <rect id="Rectangle_91" data-name="Rectangle 91" width="679" height="100" fill="#717171"/>
+    <ellipse id="Ellipse_18" data-name="Ellipse 18" cx="46.62" cy="47.178" rx="46.62" ry="47.178" transform="translate(292.111 43.643)" fill="#717171"/>
+    <ellipse id="Ellipse_19" data-name="Ellipse 19" cx="37.966" cy="44.666" rx="37.966" ry="44.666" transform="translate(300.802 36.943)" fill="#9f9f9f"/>
+    <text id="LOGO" transform="translate(313.566 77.234)" fill="#fff" font-size="12" font-family="HelveticaNeue, Helvetica Neue"><tspan x="5.602" y="11">LOGO</tspan></text>
+    <line id="Line_1" data-name="Line 1" x2="33" transform="translate(627 34)" fill="none" stroke="#fff" stroke-width="3"/>
+    <line id="Line_2" data-name="Line 2" x2="33" transform="translate(627 44)" fill="none" stroke="#fff" stroke-width="3"/>
+    <line id="Line_3" data-name="Line 3" x2="33" transform="translate(627 54)" fill="none" stroke="#fff" stroke-width="3"/>
+    <image id="icons8-marker-50" width="50" height="50" transform="translate(40 25)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARbSURBVGhD7ZpbqFVFGICPXbWbJaQV1UsXhShIIwxUVMiEVLqISCDqg6X1lJmggVA+ZIWaUGiBYQ9RmtqFoKSUsAQhCC9UppJlUKhoZmaFmX3fxNB5WLe996y9j+AHH5yZM2dm1mVm/pl1us6SzTX4KL6FO/AXPI1/4c/4Gb6I9+L52OO4Bd/Fv9GOV/EgPoUXYce5ElfiKbRzf+KH+AjegT6h8/BivBlH4yL8BuMF/YTTsWPcivvQzpzA5/AKrMpd+CnGC3oNL8S2MhZ/QzuwCa/DZnkAj6J1fY59sS3chr+jDa/AFIN2EO5B69yA52KtOCb2ow2+bEZCrsIf0bqd2WrlDbShjeggTs0QjE97hBl1MBj/weM4wIyamINeyFbsZUZqPkIbeDqkqnMpXvDfj5XojT+gbTkRJOUG9Gk4U11mRglDcQ3+inZId+EzeDmWMRP9Gwd+UuaiFb8dUvk42yxBLzpewBF0nYnpAzgci+iPLrJGClUuvDIfoJ2YElL5LEPL2fH5GMeS77pPKb6eDmgHdhHGZZadEFKJ+B6t1DAjj5EYO+mqnYUX5LRtuZ1YtF4sRsvNC6lExFfFmCmP+NSeCKl8nLa/RsuONyOHx9Eyr4ZUAgwZrNBpNw9XdwPGk1glxIhTbNGiOhkt49qVBKfDsgsxyrXMdyFVzt1oeZ9iHg+hZV4PqUT8gVaat5obuvh7N09VcABbfl1IZfMYWsYJJBnuGazUO5+H06plbgypYl5Ayy4MqWz8nWUWhFQijK2sdExIZbMcLbMqpPIxODRsdwK53Ywc3kPrmxhSiTAatdInQyqb6zEGfHlTpuvKF2iZssU1btoGhlQipqKVepeKeBDjvn0LuoV1IXSL66tyGP2d4UrR7OZNsZxPLune5Fq0YmOnso3UPRj3FVmux35YhHt+yxZNBk3zFVq5K3gZfXAauga4fTX4Mwbz6VThfbSth0MqMc+ilb8SUvXh0/IczFfUiSE5npp4Ib7njewvGsWnYDvJQ/jubEMbmRRS9fAl2kZZpN0Ss9BGDLHrwInC+g+h46w2LsF4nlu0mDXLJ2jdRSt+Mp5HG1sbUunwxlivcd3VZtSNM4k7QLeiTgCpWI1eSOrzskKWoo2+E1Kt4w1xunXabeX4tWGMmeIJySgzWiSODRfNtmMAaePbsZV4KO5N/F6S9MSkKn4C2I12otlQwrjtW7QOp/aOcR/Gu9nM54B4wFB2otIWPkY74yeGRjBUP4b+rWF+x7kJnY7d8TUy8ONhXdmOsq3MRju1F4vOviKG+Jb3sKJsb9JWfL/dd9i5l8wowHXC82DL3m9GT6P7KzbOjAzOQb85ehFvmtFT8Z8F7KSzWFa8FE/1/f7Ro16pLNyT29nN2H0DNgzjzq+2z2op8Vt7PMqJp4QGmvGQL+mBW93cid59Oz4DfTr+7EFfxxe+RvFMy85H/cbiGfEZSTyh9ATSr8JnLL5GjomiM+Oz/E9X17/6sy9A5nhpzgAAAABJRU5ErkJggg=="/>
+    <rect id="Rectangle_109" data-name="Rectangle 109" width="680" height="150" transform="translate(0 1409)" fill="#9f9f9f"/>
+    <text id="BACK_TO_TOP" data-name="BACK TO TOP" transform="translate(36 1414.383)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="224.872" y="23">BACK TO TOP</tspan></text>
+    <rect id="Rectangle_112" data-name="Rectangle 112" width="33.482" height="33.482" transform="translate(495.809 1463)" fill="#c1c1c1"/>
+    <rect id="Rectangle_113" data-name="Rectangle 113" width="33.482" height="33.482" transform="translate(322.478 1463)" fill="#c1c1c1"/>
+    <rect id="Rectangle_114" data-name="Rectangle 114" width="33.482" height="33.482" transform="translate(147.097 1461)" fill="#c1c1c1"/>
+    <text id="ICON" transform="translate(488.271 1473.882)" fill="#fff" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="16.66" y="13">ICON</tspan></text>
+    <text id="ICON-2" data-name="ICON" transform="translate(306.099 1473.882)" fill="#fff" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="16.66" y="13">ICON</tspan></text>
+    <text id="ICON-3" data-name="ICON" transform="translate(121.772 1471.882)" fill="#fff" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="16.66" y="13">ICON</tspan></text>
+    <rect id="Rectangle_115" data-name="Rectangle 115" width="539" height="40" transform="translate(70.5 1512)" fill="#c1c1c1"/>
+    <text id="COPYRIGHT" transform="translate(26 1517)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="244.676" y="23">COPYRIGHT</tspan></text>
+    <rect id="Rectangle_150" data-name="Rectangle 150" width="519" height="60" transform="translate(80 578.705)" fill="#989898"/>
+    <text id="LINKS_MENU" data-name="LINKS MENU" transform="translate(251 596.579)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="16.328" y="23">LINKS MENU</tspan></text>
+    <rect id="Rectangle_151" data-name="Rectangle 151" width="643" height="456.017" transform="translate(18 648.705)" fill="#9f9f9f"/>
+    <text id="Image-2" data-name="Image" transform="translate(54.5 664.015)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="252.38" y="23">Image</tspan></text>
+    <rect id="Rectangle_152" data-name="Rectangle 152" width="582" height="363.567" transform="translate(47 722)" fill="#c1c1c1"/>
+    <text id="List_of_links" data-name="List of links" transform="translate(209.424 861.457)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="63.544" y="23">List of links</tspan></text>
+    <text id="PLEASE_NOTE" data-name="PLEASE NOTE" transform="translate(31 1164.5)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="37.496" y="23">PLEASE NOTE</tspan></text>
+    <rect id="Rectangle_154" data-name="Rectangle 154" width="610" height="147.669" transform="translate(18 1216.5)" fill="#c1c1c1"/>
+    <text id="COPY_TEXT" data-name="COPY TEXT" transform="translate(31 1274)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="243.888" y="23">COPY TEXT</tspan></text>
+    <rect id="Rectangle_182" data-name="Rectangle 182" width="504" height="30" transform="translate(72.657 269.352)" fill="#c1c1c1"/>
+    <rect id="Rectangle_183" data-name="Rectangle 183" width="533" height="211.171" transform="translate(72.657 337.535)" fill="#c1c1c1"/>
+    <text id="COPY_TEXT-2" data-name="COPY TEXT" transform="translate(107.657 420.716)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="163.888" y="23">COPY TEXT</tspan></text>
+    <text id="Title" transform="translate(258.573 269.389)" fill="#fff" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="58.644" y="23">Title</tspan></text>
+  </g>
+</svg>

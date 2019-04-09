@@ -7,72 +7,42 @@
     <title>TRAA</title>
     <link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css" >
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">
   </head>
-<body>
+  <body>
 
-	<div id="content">
+    <div id="siteContainer">
+      <div id="mainHeader">
+        <img class="locationImg" src="images/location.svg" alt="Location">
+        <img class="logoImg" src="images/traa_logo.svg" alt="TRAA Logo">
+        <button id="button"></button>
+      </div>
 
-		<header id="header">
-      <div id="headTop">
-        <div class="text search">SEARCH</div>
-        <div id="icons">
-          <div class="img icon 1">IG</div>
-          <div class="img icon 2">FB</div>
-          <div class="img icon 3">TW</div>
+      <nav id="mainNav">
+  			<h2 class="hidden">Main Navigation</h2>
+  			<div id="burgerCon">
+  				<ul id="burgerMenu">
+  					<li><a href="#">Home</a></li>
+  					<li><a href="#">About</a></li>
+  					<li><a href="#">Past events</a></li>
+  					<li><a href="#">Projects</a></li>
+  					<li><a href="#">Newsletters</a></li>
+            <li><a href="#">Links</a></li>
+            <li><a href="#">Contact Us</a></li>
+
+  				</ul>
+  			</div>
+  		</nav>
+
+      <div id="hero">
+        <div id="textBox">
+          <p>Dedication Today for Tomorrow</p>
         </div>
+
       </div>
-      <div id="headBot">
-        <div class="img logo">Logo</div>
-        <div class="text nav">Nav</div>
-      </div>
-    </header>
 
+    </div>
 
-    <section class="img hero">Hero Image
-      <div class="text heroDesc">Hero Text</div>
-    </section>
-
-    <section class="meeting">
-      <div class="img map">MAP</div>
-      <div id="meetingInfo">
-        <div class="text heading">heading</div>
-        <div class="text subHeading">subheading</div>
-        <div class="text desc">COPY TEXT</div>
-      </div>
-    </section>
-
-    <section id="subLinks">
-      <div class="text title">TITLE</div>
-      <div id="links">
-        <div class="text link1">LINK 1</div>
-        <div class="text link2">LINK 2</div>
-        <div class="text link3">LINK 3</div>
-      </div>
-    </section>
-
-    <section id="con1">
-      <div class="img con">Image</div>
-      <div class="img subHeading">Subheading</div>
-      <div class="text desc">COPY TEXT</div>
-    </section>
-
-    <section id="con2">
-      <div class="img con">Image</div>
-      <div class="img subHeading">Subheading</div>
-      <div class="text desc">COPY TEXT</div>
-    </section>
-
-    <footer id="footer">
-      <div class="text nav">Nav</div>
-      <div id="iconsFooter">
-        <div class="img icon">IG</div>
-        <div class="img icon">FB</div>
-        <div class="img icons">TW</div>
-      </div>
-      <div class="text copyright">COPYRIGHT</div>
-    </footer>
-
-	</div>
-  <script src="js/main.js"></script>
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>

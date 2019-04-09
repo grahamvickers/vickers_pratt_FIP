@@ -5,349 +5,142 @@
 	display: none;
 }
 
+/* FONTS
+font-family: 'Roboto', sans-serif;
+font-family: 'Merriweather', serif;
+*/
+
 body{
-	color: #fff;
-	font-family: 'Helvetica';
+	background-color: #fff;
 	text-align: center;
+	font-family: 'Merriweather', serif;
 }
 
-.text{
-	font-size: 14px;
-	background-color: #C1C1C1;
-	color: white;
-	border-radius: 5px;
-	padding: 10px;
-	text-align: center;
-	margin: 10px;
-}
-.img{
-	font-size: 14px;
-	background-color: #9F9F9F;
-	color: white;
-	border-radius: 5px;
-	padding: 10px;
-	text-align: center;
-	margin: 10px;
+
+/* General rules - scales images, videos to size of container */
+img, embed, object, video {
+  max-width: 100%; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+
+a{
+	text-decoration: none;
+	border: none;
 }
 
-/* mobile grid */
-@media screen and (min-width: 380px){
-#content{
-	display: grid;
-	grid-template-columns: repeat(6, 1fr);
-	grid-gap: 10px;
-	max-width: 1200px;
+#siteContainer{
 	margin: 0 auto;
-	grid-template-areas:
-	"header header header header header header"
-	"hero hero hero hero hero hero"
-	". meeting meeting meeting meeting ."
-	". subLinks subLinks subLinks subLinks ."
-	". con1 con1 con1 con1 ."
-	". con2 con2 con2 con2 ."
-	"footer footer footer footer footer footer"
+	max-width: 320px;
+
 }
 
-#icons{
-	display: none;
-}
-#headTop{
+#mainHeader{
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
-}
-
-#headBot{
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 10px;
-}
-
-#headBot .img{
-	grid-column: 2/3;
-	grid-row: 1;
-	justify-self: center;
-
+	justify-content: space-between;
+	margin-bottom: 10px;
+	margin-top: 15px;
 
 }
-#headBot .text{
-	grid-column: 3/4;
-	grid-row: 1;
-	justify-self: center;
-}
+ .locationImg{
+	 width: 20px;
+	 height: 35px;
+	 margin-left: 30px;
+ }
 
-.heroDesc{
-	margin-top: 200px;
-}
 
-.meeting{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-}
 
-div .map{
-	margin-right: 100%;
-	padding: 150px;
-}
 
-#meetingInfo div{
-	width:100%;
-}
 
-#links{
-	display:grid;
-	grid-template-rows: repeat(3, 1fr);
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 10px;
-}
+/* MOBILE */
 
-.link1{
-	grid-row: 1/2;
-	grid-column: 2/3;
-}
-.link2{
-	grid-row: 2/3;
-	grid-column: 2/3;
-}
-.link3{
-	grid-row: 3/4;
-	grid-column: 2/3;
-}
 
-#con1{
-	display:grid;
-	grid-template-rows: repeat(3, 1fr);
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 10px;
-}
-#con1 .con{
-	grid-column: 1/3;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
+	#mainHeader button{
+		background: url(../images/burger0.svg)center no-repeat;
+		width: 30px;
+		height: 30px;
+		border: 0px;
+		margin-right: 30px;
+		transition: all .3s linear;
+	}
 
-#con1 .subHeading{
-	grid-column: 1/3;
-}
+	#mainHeader button.expanded{
+		-webkit-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
 
-#con1 .desc{
-	grid-column: 1/3;
-}
-
-#con2{
-	display:grid;
-	grid-template-rows: repeat(3, 1fr);
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 10px;
-}
-#con2 .con{
-	grid-column: 1/3;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-#con2 .subHeading{
-	grid-column: 1/3;
-}
-
-#con2 .desc{
-	grid-column: 1/3;
-}
-
-#footer .nav{
-	display:none;
-}
-
-#iconsFooter{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-/* desktop grid */
-@media screen and (min-width: 960px){
-	/* header elements */
-	#header{
+	#mainNav{
 		display: flex;
 		flex-direction: column;
-		background: #717171;
 	}
 
-	#headTop{
-		display: flex;
-		flex-direction: row;
+	#mainNav ul li a{
+		display: block;
+		padding: 10px 0 10px 0;
+		text-align: center;
+		color: #8EA76D;
 	}
 
-	.search{
-		width: 100px;
+	#mainNav li{
+		border-bottom: 1px solid #efefef;
 	}
 
-	#headBot{
-		display: flex;
-		flex-direction: row;
+	#mainNav li:first-child{
+		border-top: 1px solid #efefef;
+	}
+
+	#burgerCon{
+		display: none;
+	}
+
+	#burgerCon.slideToggle{
+		display: block;
+	}
+
+	#hero{
+		background-repeat: no-repeat;
+		background-position: center;
+		background-image: url(../images/style_intro.jpg);
+		color: #fff;
+	}
+
+
+
+
+
+/* TABLET */
+@media only screen and (min-width: 600px) {
+	#siteContainer{
 		margin: 0 auto;
+		max-width: 720px;
+
+	}
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1024px) {
+
+	#siteContainer{
+		margin: 0 auto;
+		max-width: 1200px;
+
 	}
 
-	.logo{
-		width: 150px;
+	button{
+		display: none;
 	}
-	.nav{
-		width: 800px;
+
+	#burgerCon{
+		display:flex;
 	}
-	#icons{
-		display: flex;
-		flex-direction: row;
-		width: 80px;
-		margin-left: 850px;
-	}
-/* end of header */
 
-/* hero elements */
-.hero{
-	background: #9F9F9F;
-}
-/* end of hero elements */
 
-/* meeting elements */
-.meeting{
-	display: flex;
-	flex-direction: row;
-	background: #717171;
-}
-
-.map{
-	width: 400px;
-}
-
-.heading{
-	width: 200px;
-}
-
-.subHeading{
-	width: 300px;
-}
-
-.desc{
-	width: 400px;
-	height: 100px;
-}
-#meetingInfo{
-	flex-direction: column;
-}
-/* end of meeting elements */
-
-/* start of links */
-#subLinks{
-	display: flex;
-	flex-direction: column;
-	margin: 0 auto;
-	width: 100%;
-}
-#links{
-	display: flex;
-	flex-direction: row;
-	margin: 0 auto;
-}
-
-.link1{
-	width: 150px;
-}
-.link2{
-	width: 150px;
-}
-.link3{
-	width: 150px;
-}
-/* end of links */
-
-/* start of content */
-.con{
-	height: 150px;
-}
-/* end of content */
-
-/* footer start */
-footer{
-	width: 100%;
-}
-#footer{
-	display: flex;
-	flex-direction: column;
-	margin: 0 auto;
-}
-
-#iconsFooter{
-	display: flex;
-	flex-direction: row;
-	margin: 0 auto;
-}
-/* footer end */
-#content{
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-auto-rows: minmax(100px, auto);
-	grid-gap: 10px;
-	max-width: 1200px;
-	margin: 0 auto;
-	grid-template-areas:
-	/* The site is divided into 12 rows for desktop.
-		Each word represents one grid space. A period represents a blank space.*/
-	"header header header header header header header header header header header header"
-	"hero hero hero hero hero hero hero hero hero hero hero hero"
-	"hero hero hero hero hero hero hero hero hero hero hero hero"
-	". meeting meeting meeting meeting meeting meeting meeting meeting meeting meeting ."
-	". subLinks subLinks subLinks subLinks subLinks subLinks subLinks subLinks subLinks subLinks ."
-	". con1 con1 con1 con1 con1 con2 con2 con2 con2 con2 ."
-	". con1 con1 con1 con1 con1 con2 con2 con2 con2 con2 ."
-	". con1 con1 con1 con1 con1 con2 con2 con2 con2 con2 ."
-	"footer footer footer footer footer footer footer footer footer footer footer footer"
-	"footer footer footer footer footer footer footer footer footer footer footer footer"
-}
-}
-/* this sets all children to have these elements */
-#content > *{
-	background: #717171;
-
-}
-
-/* header content */
-header{
-		grid-area: header;
-		background-color: #717171;
-}
-
-#search{
-	background-color: #C1C1C1;
-}
-/* end of header content */
-nav{
-		grid-area: nav;
-		background-color: #C1C1C1;
-}
-
-.hero{
-		grid-area: hero;
-}
-
-.meeting{
-		grid-area: meeting;
-}
-
-#subLinks{
-	grid-area: subLinks;
-}
-
-#con1{
-		grid-area: con1;
-}
-
-#con2{
-		grid-area: con2;
-}
-
-footer{
-		grid-area: footer;
-		background: #717171 !important;
 }

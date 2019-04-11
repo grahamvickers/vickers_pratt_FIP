@@ -61,6 +61,7 @@ h3{
 	font-size: 22px;
 	color: #9abd4e;
 	text-align: left;
+	margin-bottom: 10px;
 }
 
 h4{
@@ -74,6 +75,7 @@ p{
 	text-align: left;
 	color: #666;
 	font-size: 14px;
+	line-height: 1.25em;
 }
 
 ul{
@@ -84,6 +86,7 @@ ul{
 
 img{
 	border-radius: 3px;
+	margin-bottom: 20px;
 }
 
 
@@ -139,7 +142,7 @@ img{
 
 
 	#mainHeader button{
-		background: url(../images/burger0.svg)center no-repeat;
+		background: url(../images/menu.svg)center no-repeat;
 		width: 30px;
 		height: 30px;
 		border: 0px;
@@ -194,7 +197,7 @@ img{
 		background-position: center;
 		color: #fff;
 		width: 100%;
-
+		margin-bottom: 20px;
 		position: relative;
 		text-align: center;
 	}
@@ -221,7 +224,7 @@ img{
 
 	/* MOBILE */
 
-	
+
 	/* Start of the index page */
 
 	#hero{
@@ -339,6 +342,67 @@ img{
 	}
 
 /* Start of the about page */
+
+#waterDesktop{
+	display: none;
+}
+
+#waterShed{
+	margin-bottom: 20px;
+}
+
+#waterShed h2{
+	margin-bottom: 10px;
+}
+
+#moreAbout div{
+	margin-bottom: 20px;
+}
+
+#partnerText{
+	margin-bottom: 20px;
+	padding: 5px;
+	border: 3px solid #d8ae58;
+}
+
+#positions div p{
+	text-align: center;
+}
+
+.executivesCon{
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.volunteersCon{
+
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+#executives{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#volunteers{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#executives div img{
+display: none;
+}
+
+#volunteers div img{
+display: none;
+}
+
+
 
 
 

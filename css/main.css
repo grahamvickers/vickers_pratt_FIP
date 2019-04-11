@@ -61,6 +61,7 @@ h3{
 	font-size: 22px;
 	color: #9abd4e;
 	text-align: left;
+	margin-bottom: 10px;
 }
 
 h4{
@@ -74,6 +75,9 @@ p{
 	text-align: left;
 	color: #666;
 	font-size: 14px;
+	margin-bottom: 20px;
+	line-height: 1.25em;
+
 }
 
 ul{
@@ -84,6 +88,7 @@ ul{
 
 img{
 	border-radius: 3px;
+	margin-bottom: 20px;
 }
 
 
@@ -139,7 +144,7 @@ img{
 
 
 	#mainHeader button{
-		background: url(../images/burger0.svg)center no-repeat;
+		background: url(../images/menu.svg)center no-repeat;
 		width: 30px;
 		height: 30px;
 		border: 0px;
@@ -194,9 +199,9 @@ img{
 		background-position: center;
 		color: #fff;
 		width: 100%;
-
 		position: relative;
 		text-align: center;
+		margin-bottom: 10px;
 	}
 
 	.smallHeroText{
@@ -221,7 +226,7 @@ img{
 
 	/* MOBILE */
 
-	
+
 	/* Start of the index page */
 
 	#hero{
@@ -342,12 +347,30 @@ img{
 
 
 
-/* Start of the past event page */
 
 
 /* Start of the projects page */
+#archieve{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	font-size: 26px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 10px;
+}
 
+#archieve ul li{
+	margin: 0 auto;
+	color: #fff;
+	padding: 10px;
+	border-radius: 30px;
+	background: #d8ae58;
+	margin-bottom: 20px;
+}
 
+#contentCon{
+	margin-bottom: 20px;
+}
 /* Start of the newsletters page */
 
 
@@ -455,7 +478,28 @@ img{
 
 
 	/* Start of the projects page */
+	#archieve{
+		display: flex;
+		flex-direction: column;
+		list-style: none;
+		font-size: 26px;
+		font-family: 'Roboto', sans-serif;
+		margin-bottom: 10px;
+	}
 
+	#archieve ul li{
+		margin: 0 auto;
+		color: #fff;
+		padding: 10px;
+		border-radius: 30px;
+		background: #d8ae58;
+		margin-bottom: 20px;
+	}
+
+	#archieveButtons{
+		display: flex;
+		flex-direction: row;
+	}
 
 	/* Start of the newsletters page */
 
@@ -472,6 +516,20 @@ img{
 
 /* DESKTOP */
 @media only screen and (min-width: 1024px) {
+
+	#footerNav{
+		padding-top: 20px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		width: 600px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#backTop{
+		display: none;
+	}
 
 	#siteContainer{
 		margin: 0 auto;
@@ -607,10 +665,47 @@ img{
 	/* Start of the about page */
 
 
-	/* Start of the past event page */
 
 
 	/* Start of the projects page */
+	#archieve ul li{
+		margin: 0 auto;
+		color: #fff;
+		padding: 10px;
+		border-radius: 30px;
+		background: #d8ae58;
+		margin-bottom: 20px;
+		width: 45%;
+	}
+
+	.contentInfo{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.contentInfo2{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+	}
+
+	.contentInfo img{
+		width: inherit;
+	}
+
+	.contentText{
+		display: flex;
+		flex-direction: column;
+		max-width: 50%;
+	}
+
+	.one{
+		margin-left: 30px;
+	}
+	
+	.two{
+		margin-right: 30px;
+	}
 
 
 	/* Start of the newsletters page */

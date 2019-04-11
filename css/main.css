@@ -85,12 +85,6 @@ img{
 	border-radius: 3px;
 }
 
-
-/* MOBILE */
-
-
-/* Start of the index page */
-
 #siteContainer{
 	margin: 0 auto;
 	max-width: 320px;
@@ -118,13 +112,6 @@ img{
 	 width: 20px;
 	 height: 35px;
 	 margin-left: 30px;
- }
-
- #hero{
-	 width: 100%;
-	 max-height: 213px;
-	 position: relative;
-	 text-align: center;
  }
 
 
@@ -198,11 +185,51 @@ img{
 		display: none;
 	}
 
+
+/* USED FOR CREATING THE BACKGROUND HERO IMAGE ON EVERY PAGE EXCEPT INDEX */
+	#smallHero{
+		background-repeat: no-repeat;
+		background-position: center;
+		color: #fff;
+		width: 100%;
+
+		position: relative;
+		text-align: center;
+	}
+
+	.smallHeroText{
+	 position: absolute;
+	 text-align: center;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	 font-family: 'Roboto', sans-serif;
+	 font-weight: bolder;
+	 width: 100%;
+	 padding-top: 5px;
+	 padding-bottom: 5px;
+	 font-size: 18px;
+	 color: #fff;
+	}
+
+	#smallHero img{
+		max-height: 100px;
+		width: 100%;
+	}
+
+	/* MOBILE */
+
+	
+	/* Start of the index page */
+
 	#hero{
 		background-repeat: no-repeat;
 		background-position: center;
-		background-image: url(../images/style_intro.jpg);
 		color: #fff;
+		width: 100%;
+		max-height: 213px;
+		position: relative;
+		text-align: center;
 	}
 
 	#welcome{
@@ -310,6 +337,7 @@ img{
 	}
 
 /* Start of the about page */
+
 
 
 /* Start of the past event page */

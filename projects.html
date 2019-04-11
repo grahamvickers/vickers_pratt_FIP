@@ -19,14 +19,14 @@
         <div id="searchNav">
           <input id="desktopSearch" type="search" placeholder="Search..." autofocus>
           <ul id="desktopNav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="#">Past events</a></li>
             <li><a href="#">Projects</a></li>
-            <li><a href="#">Newsletters</a></li>
-            <li><a href="#">Links</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Shop</a></li>
+            <li><a href="newsletters.html">Newsletters</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="shop">Shop</a></li>
           </ul>
       </div>
         <button id="button"></button>
@@ -36,14 +36,14 @@
   			<h2 class="hidden">Main Navigation</h2>
   			<div id="burgerCon">
   				<ul id="burgerMenu">
-  					<li><a href="#">Home</a></li>
-  					<li><a href="#">About</a></li>
-  					<li><a href="#">Past events</a></li>
-  					<li><a href="#">Projects</a></li>
-  					<li><a href="#">Newsletters</a></li>
-            <li><a href="#">Links</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Shop</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Past events</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="newsletters.html">Newsletters</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="shop">Shop</a></li>
 
             <li><input id="mainSearch" type="search" placeholder="Search..." autofocus></li>
 
@@ -53,14 +53,50 @@
 
 
 
-      <div class="bannerCon">
-          <h2 class="bannerText">TRAA PROJECTS</h2>
+      <div id="smallHero">
+          <img src="images/banner_mobile.jpg" alt="Hero image" class="smallHeroBackground">
+          <p class="smallHeroText">TRAA PROJECTS</p>
       </div>
+
 
       <div id="smallContainer">
         <div class="introCon">
           <h2>"Hands-on Environmentalism" is what we do...</h2>
           <p>This is what sets the TRAA apart from other clubs and organizations. You'll find us right in the water clearing obstructions from streams, measuring returning salmonids & taking scale samples for DNA analysis, education through trout hatchery tours & stream walks, being a voice for the Thames River watershed & its inhabitants and the list goes on.</p>
+        </div>
+
+        <div id="contentCon">
+          <h2>PAST PROJECTS</h2>
+
+          <div class="contentInfo">
+            <picture>
+              <source srcset="images/fish_measure_desktop.jpg" media="(min-width: 600px)">
+              <img src="images/fish_measure_mobile-100.jpg" alt="measuring fish">
+            </picture>
+            <div class="contentText one">
+              <h3>Salmond Monitoring Program</h3>
+              <p>Spring 2013 will be our fourth year of this 5-year project. Here's an overview of what happened over a few weekends in the Spring of 2012 when TRAA members and personnel from the Upper Thames River Conservation Authority (UTRCA) waded in for Year 3 of our 5-year Salmonid Tagging and Monitoring Program... read more</p>
+            </div>
+          </div>
+
+          <div class="contentInfo2">
+            <picture>
+              <source srcset="images/trout_hatchery_desktop.jpg" media="(min-width: 600px)">
+              <img srcset="images/trout_hatchery-100.jpg" alt="man in hatchery">
+            </picture>
+            <div class="contentText two">
+              <h3>TRAA Trout Hatchery</h3>
+              <p>Rearing both brown and rainbow troutThe TRAA first began rearing rainbow trout in an outdoor upwelling incubation box back in 1986. Since then we've successfully taken on both brown trout and brook trout eggs... read more</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="archieve">
+          <h2>PROJECT ARCHIEVES</h2>
+          <ul id="archieveButtons">
+            <li><a href="#">Walleye Hatchery</a></li>
+            <li><a href="#">Stream Rehabilitation</a></li>
+          </ul>
         </div>
       </div>
 
@@ -75,7 +111,7 @@
         <li><a href="#">Contact Us</a></li>
       </ul>
 
-      <a href="#top">Back to Top</a>
+      <a href="#top" id="backTop">Back to Top</a>
       <div id="socialIcons">
         <img src="images/twitter.svg" alt="twitter">
         <img src="images/facebook.svg" alt="facebook">

@@ -53,6 +53,7 @@ h2{
 	font-size: 24px;
 	font-weight: bold;
 	text-align: left;
+	margin-bottom: 20px
 }
 
 h3{
@@ -86,8 +87,34 @@ img{
 }
 
 
+
 /* MOBILE */
 
+.bannerCon{
+	width: 100%;
+	position: relative;
+	text-align: center;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../images/banner_mobile.jpg);
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.bannerText{
+	position: absolute;
+	text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	width: 100%;
+	padding-bottom: 5px;
+	font-size: 18px;
+	color: #fff;
+}
 
 /* Start of the index page */
 

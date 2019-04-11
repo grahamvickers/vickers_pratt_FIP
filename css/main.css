@@ -53,6 +53,7 @@ h2{
 	font-size: 24px;
 	font-weight: bold;
 	text-align: left;
+	margin-bottom: 20px
 }
 
 h3{
@@ -84,6 +85,7 @@ ul{
 img{
 	border-radius: 3px;
 }
+
 
 #siteContainer{
 	margin: 0 auto;

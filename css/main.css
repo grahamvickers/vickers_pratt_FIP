@@ -110,6 +110,10 @@ img{
 	background-color: #F2F2F2;
 
 }
+#desktopNav{
+	display: none;
+}
+
  .locationImg{
 	 width: 20px;
 	 height: 35px;
@@ -138,8 +142,10 @@ img{
 	padding-bottom: 5px;
 	font-size: 18px;
 	color: #fff;
+ }
 
-
+ .dedication{
+	 display: none;
  }
 
 
@@ -186,6 +192,10 @@ img{
 		background-color: #fff;
 		text-align: center;
 		outline: 0;
+	}
+
+	#searchNav{
+		display: none;
 	}
 
 	#hero{
@@ -330,6 +340,14 @@ img{
 		font-size: 16px;
 	}
 
+	#desktopNav{
+		display: none;
+	}
+
+	#searchNav{
+		display: none;
+	}
+
 	#hero{
 
  	 max-height: 480px;
@@ -342,9 +360,21 @@ img{
  	font-size: 26px;
 	}
 
+	.dedication{
+		display: flex;
+		justify-content: center;
+		font-size: 12px;
+		margin-top: 10px;
+	}
+
+
 	#smallContainer{
 		margin: 0 auto;
 		max-width: 80%;
+	}
+
+	#hero{
+		max-height: 480px;
 	}
 
 	iframe{
@@ -376,13 +406,128 @@ img{
 
 	}
 
+	#smallContainer{
+		margin: 0 auto;
+		max-width: 90%;
+	}
+
+	#searchNav{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-right: 70px;
+
+	}
+
+	#desktopSearch{
+		display: inline;
+		max-width: 400px;
+		margin-left: auto;
+		margin-bottom: 40px;;
+		border-radius: 30px;
+		background-color: #fff;
+		text-align: center;
+		outline: 0;
+	}
+
+	.locationImg{
+		display: none;
+	}
+
+	.logoImg{
+		margin-left: 100px;
+	}
+
 	button{
 		display: none;
 	}
 
 	#burgerCon{
-		display:flex;
+		display:none;
+
+	}
+	#desktopNav{
+		display: flex;
 	}
 
+	#desktopNav li a{
+		margin:10px;
+		margin-top: 30px;
+		color: #666;
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+	}
+
+	#hero{
+	max-height: 800px;
+	margin-bottom: 40px;
+	}
+
+	.imageText{
+
+	font-size: 30px;
+	}
+
+	.dedication{
+		display: flex;
+		justify-content: center;
+		font-size: 20 px;
+		margin-top: 10px;
+	}
+
+	#meeting{
+
+		display: flex;
+		flex-direction: row;
+		margin-top: 20px;
+		margin-bottom: 40px;
+		width: 100%;
+
+	}
+	#meetingInfo{
+		max-width: 50%;
+
+	}
+
+	#generalMeet{
+		margin-bottom: 20px;
+	}
+
+	#meetingTime{
+		margin-bottom: 20px;
+	}
+
+	#meetingText{
+		line-height: 1.5em;
+	}
+
+	iframe{
+		width: 600px;
+		height: 300px;
+		margin-right: 30px;
+	}
+
+	#purchase{
+		margin-bottom: 40px;
+	}
+
+	#purchase ul{
+		display: flex;
+		flex-direction: row;
+	}
+
+	#purchase ul li{
+		width: 300px;
+	}
+
+	#getInvolved{
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#getInvolved #troutHatch{
+	margin-right: 20px;
+	}
 
 }

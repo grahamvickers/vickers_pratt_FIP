@@ -5,6 +5,8 @@ console.log("Javascript is Linked");
 // save shortcut to button in DOM
 var button = document.querySelector("button");
 var burgerCon = document.querySelector("#burgerCon");
+var theScreen = window.innerWidth;
+
 
 function hamburgerMenu() {
     console.log("Click Worked")
@@ -13,6 +15,4 @@ function hamburgerMenu() {
 }
 
 button.addEventListener("click", hamburgerMenu);
-
-
 })();

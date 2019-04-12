@@ -78,6 +78,7 @@ p{
 	margin-bottom: 20px;
 	line-height: 1.25em;
 
+
 }
 
 ul{
@@ -199,6 +200,7 @@ img{
 		background-position: center;
 		color: #fff;
 		width: 100%;
+		margin-bottom: 20px;
 		position: relative;
 		text-align: center;
 		margin-bottom: 10px;
@@ -344,6 +346,67 @@ img{
 	}
 
 /* Start of the about page */
+
+#waterDesktop{
+	display: none;
+}
+
+#waterShed{
+	margin-bottom: 20px;
+}
+
+#waterShed h2{
+	margin-bottom: 10px;
+}
+
+#moreAbout div{
+	margin-bottom: 20px;
+}
+
+#partnerText{
+	margin-bottom: 20px;
+	padding: 5px;
+	border: 3px solid #d8ae58;
+}
+
+#positions div p{
+	text-align: center;
+}
+
+.executivesCon{
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.volunteersCon{
+
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+#executives{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#volunteers{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#executives div img{
+display: none;
+}
+
+#volunteers div img{
+display: none;
+}
+
+
 
 
 

@@ -75,7 +75,10 @@ p{
 	text-align: left;
 	color: #666;
 	font-size: 14px;
+	margin-bottom: 20px;
 	line-height: 1.25em;
+
+
 }
 
 ul{
@@ -200,6 +203,7 @@ img{
 		margin-bottom: 20px;
 		position: relative;
 		text-align: center;
+		margin-bottom: 10px;
 	}
 
 	.smallHeroText{
@@ -406,12 +410,30 @@ display: none;
 
 
 
-/* Start of the past event page */
 
 
 /* Start of the projects page */
+#archieve{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	font-size: 26px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 10px;
+}
 
+#archieve ul li{
+	margin: 0 auto;
+	color: #fff;
+	padding: 10px;
+	border-radius: 30px;
+	background: #d8ae58;
+	margin-bottom: 20px;
+}
 
+#contentCon{
+	margin-bottom: 20px;
+}
 /* Start of the newsletters page */
 
 
@@ -519,7 +541,28 @@ display: none;
 
 
 	/* Start of the projects page */
+	#archieve{
+		display: flex;
+		flex-direction: column;
+		list-style: none;
+		font-size: 26px;
+		font-family: 'Roboto', sans-serif;
+		margin-bottom: 10px;
+	}
 
+	#archieve ul li{
+		margin: 0 auto;
+		color: #fff;
+		padding: 10px;
+		border-radius: 30px;
+		background: #d8ae58;
+		margin-bottom: 20px;
+	}
+
+	#archieveButtons{
+		display: flex;
+		flex-direction: row;
+	}
 
 	/* Start of the newsletters page */
 
@@ -536,6 +579,20 @@ display: none;
 
 /* DESKTOP */
 @media only screen and (min-width: 1024px) {
+
+	#footerNav{
+		padding-top: 20px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		width: 600px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#backTop{
+		display: none;
+	}
 
 	#siteContainer{
 		margin: 0 auto;
@@ -671,10 +728,47 @@ display: none;
 	/* Start of the about page */
 
 
-	/* Start of the past event page */
 
 
 	/* Start of the projects page */
+	#archieve ul li{
+		margin: 0 auto;
+		color: #fff;
+		padding: 10px;
+		border-radius: 30px;
+		background: #d8ae58;
+		margin-bottom: 20px;
+		width: 45%;
+	}
+
+	.contentInfo{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.contentInfo2{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+	}
+
+	.contentInfo img{
+		width: inherit;
+	}
+
+	.contentText{
+		display: flex;
+		flex-direction: column;
+		max-width: 50%;
+	}
+
+	.one{
+		margin-left: 30px;
+	}
+	
+	.two{
+		margin-right: 30px;
+	}
 
 
 	/* Start of the newsletters page */

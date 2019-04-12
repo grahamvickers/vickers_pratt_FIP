@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TRAA</title>
+    <title>Thame River Anglers Association</title>
     <link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css" >
     <link href="https://fonts.googleapis.com/css?family=Merriweather%7CRoboto" rel="stylesheet">
@@ -13,48 +13,64 @@
 
     <main id="siteContainer">
       <a name="top"></a>
+      <!-- Desktop Nav -->
       <div id="mainHeader">
         <img class="locationImg" src="images/location.svg" alt="Location">
         <img class="logoImg" src="images/traa_logo.svg" alt="TRAA Logo">
         <div id="searchNav">
-          <input id="desktopSearch" type="search" placeholder="Search..." autofocus>
+          <form id="searchForm" action="#" method="get">
+            <div id="searchCon">
+              <input type="text">
+              <input type="submit" value="search">
+            </div>
+          </form>
           <ul id="desktopNav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="#">Past events</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Newsletters</a></li>
-            <li><a href="#">Links</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Shop</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="newsletters.html">Newsletters</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="shop.html">Shop</a></li>
           </ul>
       </div>
         <button id="button"></button>
       </div>
 
+      <!-- this nav is displayed at mobile and tablet -->
       <nav id="mainNav">
   			<h2 class="hidden">Main Navigation</h2>
   			<div id="burgerCon">
   				<ul id="burgerMenu">
-  					<li><a href="#">Home</a></li>
-  					<li><a href="#">About</a></li>
-  					<li><a href="#">Past events</a></li>
-  					<li><a href="#">Projects</a></li>
-  					<li><a href="#">Newsletters</a></li>
-            <li><a href="#">Links</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Shop</a></li>
-
-            <li><input id="mainSearch" type="search" placeholder="Search..." autofocus></li>
-
-  				</ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Past events</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="newsletters.html">Newsletters</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li>
+              <form id="searchFormMobile" action="#" method="get">
+                <div id="searchConMobile">
+                  <input type="text">
+                  <input type="submit" value="search">
+                </div>
+              </form>
+            </li>
+          </ul>
   			</div>
   		</nav>
 
 
 
         <div id="hero">
-          <img src="images/style_intro.jpg" alt="Hero image" class="heroBackground">
+
+          <picture class="heroBackground">
+            <source srcset="images/hero_desktop.jpg" media="(min-width: 600px)">
+            <img src="images/hero_mobile.jpg" alt="Under Water">
+          </picture>
           <p class="imageText">Dedication Today for Tomorrow<span class="dedication">"For the enhancement, protection and promotion of a viable, multi-species fishery within the Thames River watershed."</span></p>
 
         </div>
@@ -92,7 +108,7 @@
         <ul>
           <li><a href="#">MEMBERSHIPS</a></li>
           <li><a href="#">FUNDRAISING</a></li>
-          <li><a href="#">SHOP GEAR</a></li>
+          <li><a href="shop.html">SHOP GEAR</a></li>
         </ul>
       </div>
 
@@ -101,7 +117,11 @@
 
       <div id="getInvolved">
         <div id="troutHatch">
-          <img src="images/hero_image.jpg" alt="trout">
+
+          <picture>
+            <source srcset="images/trout_desktop.jpg" media="(min-width: 600px)">
+            <img src="images/trout_mobile.jpg" alt="trout">
+          </picture>
           <h3>Trout Hatchery
           </h3>
           <p>The TRAA trout hatchery is a
@@ -132,7 +152,11 @@
         </div>
 
         <div id="rodBuilding">
-          <img src="images/rod_building.jpg" alt="fishing rod">
+          <picture>
+            <source srcset="images/rod_building_desktop.jpg" media="(min-width: 600px)">
+            <img src="images/rod_building_mobile.jpg" alt="rods">
+          </picture>
+
           <h3>Rod Building
           </h3>
           <p>This will be a series of informal,
@@ -166,13 +190,13 @@
 
     <footer id="mainFooter">
       <ul id="footerNav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="#">Past events</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Newsletters</a></li>
-        <li><a href="#">Links</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="newsletters.html">Newsletters</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
 
       <a href="#top">Back to Top</a>

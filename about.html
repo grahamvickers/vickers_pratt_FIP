@@ -13,51 +13,70 @@
 
     <main id="siteContainer">
       <a name="top"></a>
+      <!-- Desktop Nav -->
       <div id="mainHeader">
         <img class="locationImg" src="images/location.svg" alt="Location">
         <img class="logoImg" src="images/traa_logo.svg" alt="TRAA Logo">
         <div id="searchNav">
-          <input id="desktopSearch" type="search" placeholder="Search..." autofocus>
+          <form id="searchForm" action="#" method="get">
+            <div id="searchCon">
+              <input type="text">
+              <input type="submit" value="search">
+            </div>
+          </form>
           <ul id="desktopNav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="#">Past events</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Newsletters</a></li>
-            <li><a href="#">Links</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Shop</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="newsletters.html">Newsletters</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="shop.html">Shop</a></li>
           </ul>
       </div>
         <button id="button"></button>
       </div>
 
+      <!-- this nav is displayed at mobile and tablet -->
       <nav id="mainNav">
   			<h2 class="hidden">Main Navigation</h2>
   			<div id="burgerCon">
   				<ul id="burgerMenu">
-  					<li><a href="#">Home</a></li>
-  					<li><a href="#">About</a></li>
-  					<li><a href="#">Past events</a></li>
-  					<li><a href="#">Projects</a></li>
-  					<li><a href="#">Newsletters</a></li>
-            <li><a href="#">Links</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Shop</a></li>
-
-            <li><input id="mainSearch" type="search" placeholder="Search..." autofocus></li>
-
-  				</ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Past events</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="newsletters.html">Newsletters</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li>
+              <form id="searchFormMobile" action="#" method="get">
+                <div id="searchConMobile">
+                  <input type="text">
+                  <input type="submit" value="search">
+                </div>
+              </form>
+            </li>
+          </ul>
   			</div>
   		</nav>
 
 
 
-        <div id="smallHero">
 
-            <img src="images/banner_mobile.jpg" alt="Hero image" class="smallHeroBackground">
-            <p class="smallHeroText">ABOUT THE TRAA</p>
-        </div>
+
+
+      <div id="smallHero">
+        <picture>
+          <source srcset="images/banner_desktop_v2.jpg" media="(min-width: 1024px)">
+          <source srcset="images/banner_tablet.jpg" media="(min-width: 600px)">
+          <img src="images/banner_mobile.jpg" alt="Hero image" class="smallHeroBackground">
+        </picture>
+        <p id="smallHeroText">ABOUT THE TRAA</p>
+      </div>
+
 
         <div id="smallContainer">
 
@@ -265,13 +284,13 @@
 
     <footer id="mainFooter">
       <ul id="footerNav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="#">Past events</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Newsletters</a></li>
-        <li><a href="#">Links</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="newsletters.html">Newsletters</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
 
       <a href="#top">Back to Top</a>

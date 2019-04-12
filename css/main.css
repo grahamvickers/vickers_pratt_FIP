@@ -365,6 +365,9 @@ img{
 
 #partnerText{
 	margin-bottom: 20px;
+}
+#partnerText p{
+	margin-bottom: 20px;
 	padding: 5px;
 	border: 3px solid #d8ae58;
 }
@@ -438,6 +441,37 @@ display: none;
 
 
 /* Start of the links page */
+
+	#sites{
+		color: #666;
+	}
+
+	#linkCon{
+		margin-top: 20px;
+	}
+
+	#linkTitle{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#linkTitle h2:hover{
+		opacity: .5;
+	}
+
+	#subLinks ul{
+		margin-bottom: 20px;
+		padding: 5px;
+		border: 3px solid #d8ae58;
+	}
+
+	#subLinks h4{
+		margin-bottom: 10px;
+		margin-top: 10px;
+
+	}
+
+
 
 
 /* Start of the contact page */
@@ -535,6 +569,19 @@ display: none;
 
 
 	/* Start of the about page */
+	#moreAbout div{
+		text-align: left;
+	}
+
+	#partnerCon{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+	}
+	#partnerCon div{
+	max-width: 45%;
+	}
 
 
 	/* Start of the past event page */
@@ -727,6 +774,68 @@ display: none;
 
 	/* Start of the about page */
 
+	#moreAbout{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#aboutCon1{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#aboutCon2{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+
+	#moreAbout div picture{
+		max-width: 45%;
+	}
+
+	#moreAbout div p{
+		max-width: 45%;
+	}
+
+	#partnerCon{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#partnerLogos{
+		max-width: 30%;
+	}
+	#angling{
+		min-width: 90px;
+		min-height: 150px;
+	}
+
+	#partnerText{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#partnerText p{
+		font-size: 20px;
+		line-height: 2em;
+	}
+
+	#partnerText h3{
+		font-size: 28px;
+	}
+
+	#positions div div img{
+		display: inline;
+		padding: 12px;
+
+	}
+
+
+
 
 
 
@@ -765,7 +874,7 @@ display: none;
 	.one{
 		margin-left: 30px;
 	}
-	
+
 	.two{
 		margin-right: 30px;
 	}

@@ -112,6 +112,7 @@ img{
 	background-color: #F2F2F2;
 
 }
+
 #desktopNav{
 	display: none;
 }
@@ -182,15 +183,112 @@ img{
 		margin-bottom: 10px;
 	}
 
-	#mainSearch{
-		border-radius: 30px;
-		background-color: #fff;
-		text-align: center;
-		outline: 0;
+
+	#searchForm{
+		display: flex;
+		margin-left: auto;
+		margin-bottom: 30px;
+		display: none;
 	}
 
-	#searchNav{
-		display: none;
+	#searchFormMobile{
+		display: flex;
+		margin-left: auto;
+		margin-bottom: 30px;
+		justify-content: center;
+	}
+
+	#mainSearch{
+		display: flex;
+		margin-left: auto;
+		margin-bottom: 30px;
+	}
+
+	#searchCon{
+	display: none;
+	display: flex;
+	flex-direction: row;
+	width: 250px;
+	}
+
+	#searchConMobile{
+	display: flex;
+	flex-direction: row;
+	width: 250px;
+	}
+
+	#searchCon input[type=text]{
+	display: block;
+	width: 100%;
+	height: 40px;
+	padding: 5px;
+	border: 1px solid #cacaca;
+	border-radius: 30px 0px 0px 30px;
+	background-color: #fefefe;
+	box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+	line-height: 1.5;
+	color: #0a0a0a;
+	outline: none;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	}
+
+
+	#searchCon input[type=submit]
+	{
+	height: 40px;
+	width: 100px;
+	border: 1px solid transparent;
+	border-radius: 0px 30px 30px 0px;
+	font-size: .75em;
+	line-height: 1;
+	text-align: center;
+	cursor: pointer;
+	background-color: #9abd4e;
+	color: #fefefe;
+	outline: none;
+	}
+
+	#searchCon input[type=submit]:hover{
+		transition: ease-in .3s;
+		background-color: #d8ae58;
+	}
+
+	#searchConMobile input[type=text]{
+	display: block;
+	width: 100%;
+	height: 40px;
+	padding: 5px;
+	border: 1px solid #cacaca;
+	border-radius: 30px 0px 0px 30px;
+	background-color: #fefefe;
+	box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+	line-height: 1.5;
+	color: #0a0a0a;
+	outline: none;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	}
+
+
+	#searchConMobile input[type=submit]
+	{
+	height: 40px;
+	width: 100px;
+	border: 1px solid transparent;
+	border-radius: 0px 30px 30px 0px;
+	font-size: .75em;
+	line-height: 1;
+	text-align: center;
+	cursor: pointer;
+	background-color: #9abd4e;
+	color: #fefefe;
+	outline: none;
+	}
+
+	#searchConMobile input[type=submit]:hover{
+		transition: ease-in .3s;
+		background-color: #d8ae58;
 	}
 
 
@@ -206,7 +304,7 @@ img{
 		margin-bottom: 10px;
 	}
 
-	.smallHeroText{
+	#smallHeroText{
 	 position: absolute;
 	 text-align: center;
 	 top: 50%;
@@ -435,7 +533,24 @@ display: none;
 	margin-bottom: 20px;
 }
 /* Start of the newsletters page */
+#newsletterArchive ul li a{
+	font-family: 'Roboto', sans-serif;
+	color: #666;
+	font-size: 18px;
+}
 
+#newsletterArchive{
+	text-align: left;
+}
+
+#news1900{
+	margin-bottom: 20px;
+}
+
+#news2000 ul{
+	margin-right: auto;
+	columns: 50px 3;
+}
 
 /* Start of the links page */
 
@@ -453,6 +568,10 @@ display: none;
 
 /* TABLET */
 @media only screen and (min-width: 600px) {
+
+	#smallHeroText{
+		font-size: 22px;
+	}
 
 /* Start of the index page */
 
@@ -580,6 +699,14 @@ display: none;
 /* DESKTOP */
 @media only screen and (min-width: 1024px) {
 
+	#searchForm{
+		display: block;
+	}
+
+	#smallHeroText{
+		font-size: 26px;
+	}
+
 	#footerNav{
 		padding-top: 20px;
 		margin: 0 auto;
@@ -614,16 +741,6 @@ display: none;
 
 	}
 
-	#desktopSearch{
-		display: inline;
-		max-width: 400px;
-		margin-left: auto;
-		margin-bottom: 40px;;
-		border-radius: 30px;
-		background-color: #fff;
-		text-align: center;
-		outline: 0;
-	}
 
 	.locationImg{
 		display: none;
@@ -650,7 +767,8 @@ display: none;
 		margin-top: 30px;
 		color: #666;
 		font-family: 'Roboto', sans-serif;
-		font-weight: bold;
+		font-weight: lighter;
+		font-size: 20px;
 	}
 
 	#hero{
@@ -724,6 +842,13 @@ display: none;
 	margin-right: 20px;
 	}
 
+	#rodBuilding{
+		width: 400px;
+	}
+
+	#troutHatch{
+		width: 400px;
+	}
 
 	/* Start of the about page */
 
@@ -752,6 +877,7 @@ display: none;
 		justify-content: flex-end;
 	}
 
+
 	.contentInfo img{
 		width: inherit;
 	}
@@ -763,16 +889,43 @@ display: none;
 	}
 
 	.one{
-		margin-left: 30px;
+		width: 43%;
+		margin-left: auto;
 	}
-	
+
 	.two{
-		margin-right: 30px;
+		width: 43%;
+		margin-right: auto;
 	}
 
 
 	/* Start of the newsletters page */
 
+	#newsletterArchive ul li a{
+		font-family: 'Roboto', sans-serif;
+		color: #666;
+		font-size: 20px;
+	}
+
+	#newsletterArchive{
+		display: flex;
+		flex-direction: row;
+		text-align: left;
+	}
+
+	#news1900{
+		width: 50%;
+	}
+
+	#news2000{
+		min-width: 50%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#news2000 ul{
+		columns: 150px 3;
+	}
 
 	/* Start of the links page */
 

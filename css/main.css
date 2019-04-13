@@ -593,7 +593,29 @@ display: none;
 
 
 /* Start of the Shop page */
+.merch h3{
+	text-align: center;
+}
 
+.merch button{
+	font-family: 'Roboto', sans-serif;
+	background-color: #9abd4b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+	outline: none;
+	border-radius: 2px;
+	margin-bottom: 20px;
+}
+
+.merch button:hover{
+	background-color: #d8ae58;
+	transition: ease-in 0.3s;
+}
 
 
 
@@ -1043,5 +1065,9 @@ display: none;
 
 
 	/* Start of the Shop page */
-
+	#shop{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
 }

@@ -445,6 +445,57 @@ img{
 
 /* Start of the about page */
 
+#lightboxBtn{
+	margin: 0 auto;
+	list-style: none;
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 30px;
+	background: #d8ae58;
+	border-radius: 30px;
+	padding: 12px 34px;
+	width: 50%;
+	margin-top: 30px;
+}
+
+#lightboxBtn ul li{
+	margin: 0 auto;
+	color: #fff;
+	padding: 10px;
+	background: #d8ae58;
+	margin-bottom: 20px;
+}
+
+.lightbox{
+	display: flex;
+	justify-content: center;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  display: none;
+	margin-bottom: 40px;
+}
+
+.lightbox-close{
+  position: absolute;
+  color: #d8ae58;
+  font-size: 2rem;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.show-lightbox{
+  display: block;
+}
+
+
+video {
+	width: 80%;
+	margin-top: 5%;
+	border: thin solid #949393;
+}
+
 #waterDesktop{
 	display: none;
 }

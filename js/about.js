@@ -3,8 +3,7 @@
 console.log("Javascript is Linked");
 
 
-var button = document.querySelector("button");
-var burgerCon = document.querySelector("#burgerCon");
+
 
 var melchers = document.querySelector("#melchers");
 var guillevin = document.querySelector("#guillevin");
@@ -12,20 +11,6 @@ var muma = document.querySelector("#muma");
 var tryRec = document.querySelector("#try");
 var angling = document.querySelector("#angling");
 
-var conservation = document.querySelector("#conservation");
-var conAuth = document.querySelector("#conAuthorities");
-var government = document.querySelector("#government");
-var retail = document.querySelector("#retailers");
-var fishLinks = document.querySelector("#fishLinks");
-
-
-//used to make thee mobile and tablet burger menus appear
-
-function hamburgerMenu() {
-    console.log("Click Worked")
-    burgerCon.classList.toggle("slideToggle");
-    button.classList.toggle("expanded");
-}
 
 
 //Displays the corresponding information in the about page regarding the specific logo clicked
@@ -60,16 +45,7 @@ function anglingCon() {
     document.getElementById("partnerText").innerHTML = "<h3>Angling Sports</h3><p>Before we could take the trailer to Try Recycling, we needed to get the spare tire for the trailer fixed. Pat Devincenzo, proprietor of Angling Sports, offered to get it repaired. Turns out the tire needed replacing and Pat took care of it. Angling Sports also supplied cards for all TRAA members that entitle them to a discount equal to the tax on anything in the store. Thanks Pat, your generosity is greatly appreciated.</p>";
 }
 
-//displays the correct group of links based upon the specific section called upon
 
-function conservationCon() {
-    console.log("Links Changed")
-    document.getElementById("subLinks").innerHTML = "";
-    document.getElementById("subLinks").innerHTML = '<p>hey</p>';
-}
-
-
-button.addEventListener("click", hamburgerMenu);
 
 melchers.addEventListener("click", melchersCon);
 guillevin.addEventListener("click", guillevinCon);
@@ -77,7 +53,7 @@ muma.addEventListener("click", mumaCon);
 tryRec.addEventListener("click", tryCon);
 angling.addEventListener("click", anglingCon);
 
-conservation.addEventListener("click", conservationCon);
+
 
 
 

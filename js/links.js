@@ -3,24 +3,11 @@
 console.log("Javascript for Links is Linked");
 
 
-var button = document.querySelector("button");
-var burgerCon = document.querySelector("#burgerCon");
-
-
 var conservation = document.querySelector("#conservation");
 var conAuth = document.querySelector("#conAuthorities");
 var government = document.querySelector("#government");
 var retail = document.querySelector("#retailers");
 var fishLinks = document.querySelector("#fishLinks");
-
-
-//used to make thee mobile and tablet burger menus appear
-
-function hamburgerMenu() {
-    console.log("Click Worked")
-    burgerCon.classList.toggle("slideToggle");
-    button.classList.toggle("expanded");
-}
 
 
 
@@ -58,7 +45,6 @@ function fishCon() {
 }
 
 
-button.addEventListener("click", hamburgerMenu);
 
 
 

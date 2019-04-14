@@ -780,6 +780,10 @@ display: none;
 
 
 	/* Start of the projects page */
+	.contentPic{
+		display: flex;
+		justify-content: flex-start;
+	}
 	#archieve{
 		display: flex;
 		flex-direction: column;
@@ -819,6 +823,10 @@ display: none;
 /* DESKTOP */
 @media only screen and (min-width: 1024px) {
 
+	#backTop{
+		display: none;
+	}
+
 	#searchForm{
 		display: block;
 	}
@@ -827,11 +835,38 @@ display: none;
 		font-size: 26px;
 	}
 
+	#mainFooter{
+		padding-bottom: 40px;
+	}
+
+	#mainFooter img{
+		margin-bottom: 30px;
+	}
+
+	#footerNav a {
+	display: inline-block;
+	text-decoration:none
+	}
+
+	#footerNav a:after {
+		color: #d8ae58;
+		content: "";
+		display: block;
+		width: 0;
+		border-bottom: 1px solid;
+		margin: 0 auto;
+		transition:all 0.3s linear 0s;
+	}
+
+	#footerNav a:hover:after {
+		width: 100%;
+	}
+
 	#footerNav{
-		padding-top: 20px;
+		padding-top: 30px;
 		margin: 0 auto;
 		margin-bottom: 20px;
-		width: 600px;
+		width: 650px;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -858,9 +893,27 @@ display: none;
 		justify-content: center;
 		flex-wrap: wrap;
 		margin-right: 70px;
-
 	}
 
+
+	#searchNav a {
+	display: inline-block;
+	text-decoration:none
+	}
+
+	#searchNav a:after {
+		color: #d8ae58;
+		content: "";
+		display: block;
+		width: 0;
+		border-bottom: 1px solid;
+		margin: 0 auto;
+		transition:all 0.3s linear 0s;
+	}
+
+	#searchNav a:hover:after {
+		width: 100%;
+	}
 
 	.locationImg{
 		display: none;
@@ -888,7 +941,7 @@ display: none;
 		color: #666;
 		font-family: 'Roboto', sans-serif;
 		font-weight: lighter;
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	#hero{

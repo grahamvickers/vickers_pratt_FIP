@@ -673,6 +673,63 @@ display: none;
 
 /* Start of the contact page */
 
+#mapForm{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+
+#contactForm{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+#contactForm input{
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	background-color: #d8ae58;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	color: #fff;
+	height: 45px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+#contactForm input:last-child{
+	font-weight: bold;
+}
+
+.smallInput{
+	width: 45%;
+
+}
+
+.largeInput{
+	width: 100%;
+}
+
+#contactMap{
+	width: 100%;
+	height: 150px;
+}
+
+#mapWithText p{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
 
 /* Start of the Shop page */
 .merch h3{
@@ -851,6 +908,23 @@ display: none;
 
 
 	/* Start of the contact page */
+
+	#mapForm{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	#contactForm{
+		width: 45%;
+	}
+
+	#mapWithText{
+		width: 45%;
+	}
+
+	#disclaimer{
+		text-align: right;
+	}
 
 
 	/* Start of the Shop page */
@@ -1203,6 +1277,21 @@ display: none;
 
 
 	/* Start of the contact page */
+
+	#inTouch{
+		margin-bottom: 50px;
+
+	}
+
+	#mapWithText{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: flex-end;
+	}
+
+	#contactMap{
+		height: 100%;;
+	}
 
 
 	/* Start of the Shop page */
